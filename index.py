@@ -3,6 +3,8 @@
 import requests, time, re, json,random
 
 #Server酱推送提醒，需要填写sckey，官网：https://sc.ftqq.com/3.version
+#Server酱推送提醒，需要填写sckey，官网：https://sc.ftqq.com/3.version
+#Server酱推送提醒，需要填写sckey，官网：https://sc.ftqq.com/3.version
 SCKEY = "***************************"
 
 #SERVER酱微信推送url
@@ -21,8 +23,13 @@ def main_handler(userAgent,authorization):
 
 
     headers = {
+        #用抓包的信息修改下列两行
+        #用抓包的信息修改下列两行
+        #用抓包的信息修改下列两行
         "User-Agent": "Mozilla/5.0 M************",
         "Authorization": "Bearer ey*************",
+        
+        
         # "User-Agent":userAgent,
         # "Authorization":authorization,
 
